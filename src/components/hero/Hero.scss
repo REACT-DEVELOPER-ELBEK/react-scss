@@ -1,0 +1,73 @@
+.hero{
+    .container{
+        .hero__wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .hero__content{
+                h1{
+                    max-width: 518px;
+                    color: #211F54;
+                    font-family: Roboto;
+                    font-size: 68px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 73.984px; 
+                }
+                p{
+                    max-width: 591px;
+                    color: #6E7191;
+                    font-family: Roboto;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px;
+                    margin-top: 22px;
+                }
+                .hero__options{
+                    margin-top: 34px;
+                    display: flex;
+                    gap: 28px;
+                    button{
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 20px; 
+                        padding: 10px 20px;
+                        border-radius: 14px;
+                        background: #0075FF;
+                    }
+                    .hero__call{
+                        display: flex;
+                        background: transparent;
+                        .hero-call__info{
+                            display: flex;
+                            flex-direction: column;
+                            p{
+                                color: #6E7191;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 1.6px;
+                                text-transform: uppercase;
+                            }
+                            h3{
+                                color: #211F54;
+                                font-family: Roboto;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 36.008px; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

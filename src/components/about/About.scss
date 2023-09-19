@@ -1,0 +1,98 @@
+.about{
+    margin-top: 155px;
+    .container{
+        .about__wrapper{
+            .about__title{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    color: #211F54;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 57.984px; 
+                }
+                p{
+                    max-width: 648px;
+                    color: #6E7191;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px; 
+                    margin-top: 21px;
+                }
+            }
+            .about__cards{
+                margin-top: 56px;
+                display: flex;
+                justify-content: space-between;
+                .about__child{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h2{
+                        margin-top: 39px;
+                        color: #211F54;
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 36.008px; 
+                    }
+                    p{
+                        margin-top: 16px;
+                        max-width: 412px;
+                        color: #6E7191;
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30.006px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+            .about__btns{
+                margin-top: 56px;
+                gap: 28px;
+                display: flex;
+                justify-content: center;
+                button{
+                    padding: 26px 38px;
+                    &:nth-child(1){
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 20px; 
+                        border-radius: 14px;
+                        background: #0075FF;
+                    }
+
+                    &:nth-child(2){
+                        color: #211F54;
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19.998px; 
+                        border-radius: 14px;
+                        border: 1px solid #EFF0F6;
+                        background: #FFF;
+                        box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+                    }
+                }
+            }
+        }
+    }
+}

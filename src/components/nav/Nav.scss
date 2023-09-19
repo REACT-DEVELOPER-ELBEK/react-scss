@@ -1,0 +1,54 @@
+nav{
+    padding: 40px 0;
+    .container{
+        .nav__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .nav__items{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                .nav__links{
+                    display: flex;
+                    gap: 22px;
+                    p{
+                        color: #211F54;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30.006px; 
+                    }
+                }
+            }
+            .nav__options{
+                display: flex;
+                gap: 24px;
+                align-items: center;
+                p{
+                    color: #211F54;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px; 
+                }
+
+                button{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px; 
+                    padding: 18px 24px;
+                    border-radius: 14px;
+                    background: #0075FF;
+                }
+            }
+        }
+    }
+}
