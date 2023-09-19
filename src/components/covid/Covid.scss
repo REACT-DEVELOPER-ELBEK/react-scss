@@ -1,0 +1,83 @@
+.covid{
+    margin-top: 147px;
+    .container{
+        .covid__wrapper{
+            border-radius: 24px;
+            background: #211F54;
+            display: flex;
+            align-items: center;
+            gap: 72px;
+            .covid__content{
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 18px; 
+                letter-spacing: 1.6px;
+            }
+            h2{
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 57.984px; 
+                margin-top: 17px;
+            }
+            p{
+                max-width: 474px;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30.006px; 
+                margin-top: 18px;
+            }
+            .covid__options{
+                margin-top: 34px;
+                display: flex;
+                gap: 28px;
+                button{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 20px; 
+                    padding: 26px 38px;
+                    border-radius: 14px;
+                    background: #0075FF;
+                }
+                .covid__call{
+                    display: flex;
+                    background: transparent;
+                    .covid-call__info{
+                        display: flex;
+                        flex-direction: column;
+                        p{
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 18px;
+                            letter-spacing: 1.6px;
+                            text-transform: uppercase;
+                        }
+                        h3{
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 36.008px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
