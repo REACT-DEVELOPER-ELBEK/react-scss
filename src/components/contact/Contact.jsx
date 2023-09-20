@@ -21,6 +21,44 @@ const Contact = () => {
                     <p>Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.</p>
                     <button className='browse'>Browse our packages</button>
                 </div>
+                <div className="contact__form">
+                    <div className="contact__inputs">
+                    <div className="contact__input">
+                    <label htmlFor="l1">Full name</label>
+                    <input type="text" name='l1' />
+                    </div>
+                    
+                    <div className="contact__input">
+                    <label htmlFor="l2">Phone number</label>
+                    <input type="text" name='l2' />
+                    </div>
+
+                    <div className="contact__input">
+                    <label htmlFor="l3">Adress</label>
+                    <input type="text" name='l3' />
+                    </div>
+
+                    <div className="contact__input">
+                    <label htmlFor="l4">Email</label>
+                    <input type="email" name='l4' />
+                    </div>
+
+                    <div className="contact__input">
+                    <label htmlFor="l5">Request service</label>
+                    <input type="text" name='l5' />
+                    </div>
+
+                    <div className="contact__input">
+                    <label htmlFor="l6">Day of service</label>
+                    <input type="text" name='l6' />
+                    </div>
+                    </div>
+                    <div className="contact__area">
+                    <label htmlFor="bote">Add a note</label>
+                    <input type="text" name='nore' />
+                    </div>
+                    <button>Submite message</button>
+                </div>
             </div>
         </div>
     </div>

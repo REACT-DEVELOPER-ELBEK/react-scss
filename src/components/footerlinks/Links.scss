@@ -1,0 +1,43 @@
+.links{
+    .container{
+        .links__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 43px 0 30px 0;
+            .links__way{
+                display: flex;
+                gap: 15px;
+                p{
+                    color: #6E7191;
+                    text-align: right;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px;
+                    a{
+                        color: #0075FF;
+                        text-align: right;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30.006px; 
+                        text-decoration-line: underline;
+                    }
+                }
+                a{
+                    color: #0075FF;
+                    text-align: right;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+}
