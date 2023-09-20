@@ -1,0 +1,83 @@
+.contact{
+    background: #F7F9FC;
+    margin-top: 130px;
+    padding: 131px 0;
+    .container{
+        .contact__wrapper{
+            .contact__conent{
+                h2{
+                    color: #211F54;
+                    font-family: Roboto;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 57.984px; 
+                }
+                p{
+                    max-width: 485px;
+                    color: #6E7191;
+                    font-family: Roboto;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px;
+                }
+                .contact-number{
+                    margin-top: 33px;
+                    border-bottom: 1px solid #DCDDEB;
+                    padding-bottom: 28px;
+                    width: 486px;
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        background: transparent;
+                        .contact-number__info{
+                            p{
+                                color: #6E7191;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px; 
+                                letter-spacing: 1.6px;
+                                text-transform: uppercase;
+                            }
+                            h2{
+                                color: #211F54;
+                                font-family: Roboto;
+                                font-size: 28px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 36.008px; 
+                            }
+                        }
+                }
+                h3{
+                    color: #211F54;
+                    font-family: Roboto;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 36.008px; 
+                    margin-top: 55px;
+                    margin-bottom: 10px;
+                }
+                .browse{
+                    color: #211F54;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 19.998px; 
+                    border-radius: 14px;
+                    border: 1px solid #EFF0F6;
+                    background: #FFF;
+                    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+                    margin-top: 30px;
+                    padding: 26px 38px;
+                }
+            }
+        }
+    }
+}

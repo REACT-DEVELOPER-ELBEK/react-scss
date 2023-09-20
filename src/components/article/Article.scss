@@ -1,0 +1,99 @@
+.article{
+    margin-top: 336px;
+    .container{
+        .article__wrapper{
+            .article__title{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h2{
+                    color: #211F54;
+                    font-family: Roboto;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 57.984px;
+                }
+                .article-title__btns{
+                    display: flex;
+                    gap: 28px;
+                    button{
+                        padding: 26px 38px;
+                        &:first-child{
+                            border-radius: 14px;
+                            background: #0075FF;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px;                     
+                        }
+                        &:last-child{
+                            color: #211F54;
+                            text-align: center;
+                            font-family: Roboto;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 19.998px; 
+                            border-radius: 14px;
+                            border: 1px solid #EFF0F6;
+                            background: #FFF;
+                            box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+                        }
+                    }
+                }
+            }
+            .article__parent{
+                display: flex;
+                gap: 28px;
+                margin-top: 93px;
+                .article__child{
+                    img{
+                        z-index: 3;
+                    }
+                    .article-child__content{
+                        margin-top: -65px;
+                        position: relative;
+                        border-radius: 24px;
+                        z-index: 1;
+                        border: 1px solid #EFF0F6;
+                        background: #FFF;
+                        box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+                        padding: 52px 10px 65px 40px;
+                        h2{
+                            max-width: 407px;
+                            color: #211F54;
+                            font-family: Roboto;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 34.008px; 
+                        }
+                        p{
+                            max-width: 434px;
+                            color: #6E7191;
+                            font-family: Roboto;
+                            font-size: 21px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 30.006px;
+                            margin-top: 17px;
+                        }
+                        h3{
+                            color: #211F54;
+                            font-family: Roboto;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 19.998px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
