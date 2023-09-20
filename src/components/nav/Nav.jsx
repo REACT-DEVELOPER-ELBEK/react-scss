@@ -21,6 +21,7 @@ const nav = () => {
                   <p>Cart (0)</p>
                   <button>Get a free quote</button>
                 </div>
+                <img src="assets/burger.svg" className='burger' alt="" width={50}px />
             </div>
         </div>
     </nav>

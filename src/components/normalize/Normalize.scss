@@ -24,3 +24,71 @@ button, a{
 input{
     outline: none;
 }
+
+@media (max-width: 1115px){
+    .hero__wrapper{
+        flex-direction: column-reverse;
+        .hero-img{
+            width: 500px;
+        }
+        .hero__content{
+            margin-top: 30px;
+            h1, p{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .article__parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__wrapper{
+        flex-direction: column;
+        align-items: center;
+        h2, p, h3{
+            text-align: center;
+        }
+        .contact__form{
+            margin-top: 40px;
+        }
+    }    
+    .footer__wrapper{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .covid__wrapper{
+        flex-direction: column;
+        padding-bottom: 50px;
+        .covid__content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .links__wrapper{
+        gap: 30px;
+    }
+    .links__way{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1040px){
+    .service__cards{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 980px){
+    .burger{
+        display: block;
+    }
+    .covid__content{
+        h2{
+            font-size: 10px;
+        }
+    }
+}
